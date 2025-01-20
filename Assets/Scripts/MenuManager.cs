@@ -38,7 +38,7 @@ public class MenuManager : MonoBehaviour
         PlayerPrefs.SetInt("WorldSeed", seed);
 
         // Naèti herní scénu (zmìò "GameWorld" na název své scény)
-        SceneManager.LoadScene("WorldLevel");
+        SceneManager.LoadScene("Scene");
     }
 
     void OnSettingsButtonClicked()

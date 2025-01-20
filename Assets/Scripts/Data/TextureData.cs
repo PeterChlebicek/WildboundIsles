@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using System.Linq;
 
@@ -10,8 +10,8 @@ public class TextureData : UpdatableData {
 
 	public Layer[] layers;
 
-	float savedMinHeight;
-	float savedMaxHeight;
+	public float savedMinHeight;
+	public float savedMaxHeight;
 
 	public void ApplyToMaterial(Material material) {
 		
